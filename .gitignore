@@ -1,0 +1,41 @@
+# Raw benchmark data (download separately, see README)
+/data/raw/**
+!/data/raw/
+!/data/raw/.gitkeep
+
+# Generated outputs (keep committed EDA tables/figures)
+/outputs/**
+!/outputs/
+!/outputs/**/
+!/outputs/eda/tables/*.csv
+!/outputs/eda/figures/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large / binary / personal (never commit)
+*.twbx
+*.zip
+*.pth
+*.pt
+*.ckpt
